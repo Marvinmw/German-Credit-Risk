@@ -13,7 +13,7 @@
         - SVM, Decision Tree, Random Tree, Logistic classifier, KNN, Adamboosting based on Decision Tree
     - lenet.py
         - Neural network, LeNet without max pooling operation
-    - dataprovider
+    - dataprovider.py
         - Process data
     - train.py
         - `python train.py`
