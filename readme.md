@@ -9,6 +9,14 @@
     - feature slection.
 
 - Implemntation:
-    - SVM, Decision Tree, Random Tree, Logistic classifier, KNN, Adamboosting based on Decision Tree
-    - Neural network, LeNet without max pooling operation
+    - model.py
+        - SVM, Decision Tree, Random Tree, Logistic classifier, KNN, Adamboosting based on Decision Tree
+    - lenet.py
+        - Neural network, LeNet without max pooling operation
+    - dataprovider
+        - Process data
+    - train.py
+        - `python train.py`
+        
+    
    
