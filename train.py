@@ -1,7 +1,7 @@
 import model as m
 import dataprovider as dp
 from numpy.random import seed
-import lenet
+# import lenet
 seed(34)
 
 # SVM model
@@ -40,13 +40,13 @@ votingmodel = m.voting((xtrain,ytrain),(xtext,ytest),classifiers)
 #Using LeNet.
 # Removing the max pooling layer.
 # Nestorv optimization
-import keras
-ytrain = keras.utils.to_categorical(ytrain, 2)
-ytest = keras.utils.to_categorical(ytest, 2)
-cnnlenet = lenet.letnet4((9,),2)
-lenet.train(cnnlenet,xtrain, ytrain, xtext, ytest, lr=0.01, epoches=200,
-                     batch_size=800, modelpath='./lenet.h5', historypath='./lenet_history.csv',
-                     nesterov=True)
+# import keras
+# ytrain = keras.utils.to_categorical(ytrain, 2)
+# ytest = keras.utils.to_categorical(ytest, 2)
+# cnnlenet = lenet.letnet4((9,),2)
+# lenet.train(cnnlenet,xtrain, ytrain, xtext, ytest, lr=0.01, epoches=200,
+#                      batch_size=800, modelpath='./lenet.h5', historypath='./lenet_history.csv',
+#                      nesterov=True)
 
 
 
