@@ -16,7 +16,9 @@
     - dataprovider.py
         - Process data
     - train.py
-        - `python train.py`
+        - `python train.py` , train the models in model.py
+    - trainlenet.py
+        - 'python trainlenet.py' , train LeNet
         
     
    
