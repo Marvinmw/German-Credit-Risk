@@ -21,7 +21,7 @@
     - train.py
         - `python train.py` , trains the models in model.py
     - trainlenet.py
-        - 'python trainlenet.py' , trains LeNet
+        - `python trainlenet.py` , trains LeNet
         
     
    
